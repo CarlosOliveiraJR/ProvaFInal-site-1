@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(IMG/papel-de-parede-love-quadrinhos-preto-e-branco-mod-84-10m-papel-de-parede-decoracao.jpg);
+}
+
+.Center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+    font-family: sans-serif;
+    font-size: larger;
+    text-decoration: none;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.logo{
+ max-width: auto;
+}
+
+header{
+    padding: 20px 0;
+}
+
+.Autor{
+    width: 40%;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+    background-color: aliceblue;
+    padding-top: 30px;
+}
+
+.postagem{
+    margin: 10px;
+    background-color: aliceblue;
+}
+
+main{
+    background-color: aliceblue;
+    margin: 15px;
+    padding: 2%;
+}
+
+.container img {
+    max-width: 50%;
+    max-height: 50%;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .Center img {
+      max-width: 50%;
+    }
+}
+  
+@media (max-width: 480px) {
+    .Center img {
+      max-width: 30%;
+    }
+}
+
+@media (max-width: 768px) {
+    .Autor {
+      font-size: 1em;
+    }
+  
+    .Center {
+      font-size: 1.5em;
+    }
+}
+  
+@media (max-width: 480px) {
+   .Autor {
+      font-size: 1em;
+    }
+  
+.Center {
+      font-size: 1em;
+    }
+}
+
+.Center {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.Autor {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+  
+img {
+    width: 50%;
+    height: auto;
+}
+  
+.Rodape{
+    max-width: 1200px;
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+    background-color: aliceblue;
+    font-family: sans-serif;
+}
+
+@media (max-width: 768px) {
+    .Rodape {
+      max-width: 600px;
+    }
+}
+  
+ @media (max-width: 480px) {
+    .Rodape {
+      max-width: 300px;
+    }
+ }
+
+ .Imagem1{
+    margin: 20px;
+ }
+
+ .Imagem2{
+    margin: 20px;
+ }
